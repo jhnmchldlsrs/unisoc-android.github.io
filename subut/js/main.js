@@ -7,7 +7,7 @@ async function connect() {
     console.debug("Called connect()");
 
     try {
-        await device.connect();
+        // await device.connect();
         document.querySelector("#unlock-button").disabled = false;
         document.querySelector("#connect-button").disabled = true;
         document.querySelector("#device-status").textContent = "Connected!";
